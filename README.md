@@ -1,9 +1,10 @@
 # DevOps CI\CD Tools Implementation On Kubernetes Cluster (AWS EKS) 
 
 This repo is to create Kubernetes Cluster which will have needed deployments for Devops CI\CD tools (Jenkins, Nexus):
-  a.  Implement and configure secure Kubernetes cluster on AWS EKS using Terraform.
-  b.  Deploy Jenkins, Nexus on the created Cluster using Ansible.
-  C.  Implement a CICD pipeline for a simple application (Java Spring boot) using the tools and the platform implemented from the previous steps this pipeline should be using groovy scripting Jenkins file.
+
+1. Implement and configure secure Kubernetes cluster on AWS EKS using Terraform.
+2. Deploy Jenkins, Nexus on the created Cluster using Ansible.
+3. Implement a CICD pipeline for a simple application (Java Spring boot) using the tools and the platform implemented from the previous steps this pipeline should be using groovy scripting Jenkins file.
 
 ## Pre-requisites
 1. An AWS Account
