@@ -1,0 +1,18 @@
+- hosts: kubernetes-cluster
+  tasks:
+    - name:  Create a Jenkins Service object
+      community.kubernetes.k8s:
+        state: present
+        definition:
+          apiVersion: v1
+          kind: Service
+          metadata:
+            name: jenkins
+          spec:
+            type: NodePort
+            ports:
+              - port: 8080
+                targetPort: 8080
+                nodePort: 30000
+            selector:
+              app: jenkins
