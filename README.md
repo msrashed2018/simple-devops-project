@@ -54,7 +54,7 @@ $ terraform output
 You can also show cluster configuration by run `kubectl config view`.
 
 
-## Deploy Jenkins, Nexus on the created Cluster using Ansible.
+## Deploy Jenkins & Nexus on the created Cluster using Ansible.
 
 Ansible is an open-source automation platform. It is very, very simple to set up and yet powerful. Ansible can help you with configuration management, application deployment, task automation.
 
