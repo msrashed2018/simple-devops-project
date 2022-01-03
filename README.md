@@ -1,4 +1,4 @@
-# DevOps CI\CD Tools Implementation On Kubernetes Cluster (AWS EKS).
+# DevOps CI\CD Tools Implementation On Kubernetes Cluster (AWS EKS)
 
 This repo is to create Kubernetes Cluster which will have needed deployments for Devops CI\CD tools (Jenkins, Nexus):
 
